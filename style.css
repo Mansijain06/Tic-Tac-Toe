@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(16, 104, 126);
+  text-align: center;
+}
+.container {
+  text-align: center;
+  font-size: 2rem;
+  font-family: Lobster;
+  position: relative;
+  top: 12rem;
+}
+.board {
+  /* width: 100%; */
+  text-align: center !important;
+}
+.header {
+  margin: 10px;
+}
+.grid-row {
+  display: flex;
+  justify-content: center;
+}
+.grid-item {
+  background-color: rgb(174, 228, 65);
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid rgb(21, 148, 31);
+  border-radius: 1rem;
+  text-align: center;
+  margin: 0.2rem;
+  /* align-items: center; */
+}
